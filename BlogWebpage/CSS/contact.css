@@ -1,0 +1,54 @@
+.contact-content {
+  /* height: 395px;
+  height: 80vh; */
+  display: block;
+  /* display: flex; */
+  margin-top: 15px;
+  padding: 9px;
+  position: relative;
+  overflow: hidden;
+}
+.contact-content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-image: url("../vecteezy_overhead-shot-of-man-working-on-laptop-flat-lay-top-view_5022141-1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: inherit;
+  opacity: 0.2;
+  z-index: -1;
+  height: 100%;
+}
+.form-box select {
+  width: 44.8vw;
+  margin: 7px 0px;
+  padding: 6px 6px;
+  border-radius: 5px;
+  border: 1px solid orangered;
+}
+.form-box input,
+textarea {
+  width: 44vw;
+  margin: 7px 0px;
+  padding: 6px 6px;
+  border-radius: 5px;
+  border: 1px solid orangered;
+}
+.mx-1 {
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.btns {
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 50px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+.btns:hover {
+  color: white;
+  background-color: var(--main-bg-color);
+  transition: all 0.9s ease-in-out;
+}
