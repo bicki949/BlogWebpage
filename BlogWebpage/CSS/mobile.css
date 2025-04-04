@@ -159,4 +159,11 @@
     font-size: 18px;
     line-height: 30px;
   } */
+
+  @media screen and (max-width: 1370px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
